@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Second">
+
+    <LinearLayout
+        android:layout_width="386dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_birth"
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@drawable/ic_arrow"
+            android:drawableRight="@drawable/ic_arrow"
+            android:gravity="center"
+            android:text="01/01/2019"
+            android:textColor="#F5F2F2"
+            android:textSize="21sp"></Button>
+
+        <TextView
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="➜"
+            android:textColor="#EEF2F3"
+            android:textSize="40sp"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:id="@+id/bt_today"
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@drawable/ic_arrow"
+            android:drawableRight="@drawable/ic_arrow"
+            android:gravity="center"
+            android:textColor="#FAF7F7"
+            android:textSize="21sp"></Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_calculate"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#0C0000"
+        android:text="Calculate"
+        android:textColor="#F5B027"
+        android:textSize="22sp"
+        android:textStyle="bold"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Result"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#050000"
+        android:text="0 Years / 0 Months / 0 Days"
+        android:textColor="#F1F0F0"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+
+</LinearLayout>
